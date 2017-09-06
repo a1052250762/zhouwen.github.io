@@ -53,6 +53,10 @@
 ._文本段落 {
   text-align:left;
 }
+.line {
+}
+.arrow {
+}
 .text_field {
   color:#000000;
   text-align:left;
@@ -68,4 +72,6 @@
 }
 .sticky_3 {
   text-align:left;
+}
+.icon {
 }
