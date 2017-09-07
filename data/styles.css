@@ -7,6 +7,8 @@
   text-align:center;
   line-height:normal;
 }
+.ellipse {
+}
 .image {
 }
 ._一级标题 {
@@ -61,12 +63,25 @@
   color:#000000;
   text-align:left;
 }
+.text_area {
+  color:#000000;
+  text-align:left;
+}
 ._流程形状 {
 }
 .tree_node {
   text-align:left;
 }
 .table_cell {
+}
+._连接线 {
+  font-family:'Arial';
+  font-weight:bold;
+  font-style:normal;
+  font-size:32px;
+  color:#FF0000;
+  text-align:left;
+  line-height:normal;
 }
 .menu_item {
 }
