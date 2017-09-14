@@ -1,0 +1,424 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cross_Entropy</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/cross_entropy/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/prototypePre.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/prototypePost.js"></script>
+    <script src="files/cross_entropy/data.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (矩形) -->
+      <div id="u326" class="ax_default sticky_3">
+        <img id="u326_img" class="img " src="images/nn/u52.png"/>
+        <!-- Unnamed () -->
+        <div id="u327" class="text">
+          <p><span style="font-family:'Axure Handwriting';"></span></p><p><span style="font-family:'Axure Handwriting';"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (菜单) -->
+      <div id="u328" class="ax_default">
+        <img id="u328_menu" class="img " src="images/index/u10_menu.png" alt="u328_menu"/>
+
+        <!-- Unnamed (表格) -->
+        <div id="u329" class="ax_default">
+
+          <!-- Unnamed (Menu Item) -->
+          <div id="u330" class="ax_default menu_item">
+            <img id="u330_img" class="img " src="images/index/u12.png"/>
+            <!-- Unnamed () -->
+            <div id="u331" class="text">
+              <p><span style="font-family:'Axure Handwriting';">首页</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (Menu Item) -->
+          <div id="u332" class="ax_default menu_item">
+            <img id="u332_img" class="img " src="images/index/u12.png"/>
+            <!-- Unnamed () -->
+            <div id="u333" class="text">
+              <p><span style="font-family:'Axure Handwriting';">关于我</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (Menu Item) -->
+          <div id="u334" class="ax_default menu_item">
+            <img id="u334_img" class="img " src="images/index/u12.png"/>
+            <!-- Unnamed () -->
+            <div id="u335" class="text">
+              <p><span style="font-family:'Axure Handwriting';">机器学习</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (Menu Item) -->
+          <div id="u336" class="ax_default menu_item">
+            <img id="u336_img" class="img " src="images/index/u18.png"/>
+            <!-- Unnamed () -->
+            <div id="u337" class="text">
+              <p><span style="font-family:'Axure Handwriting';">其他</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (菜单) -->
+        <div id="u338" class="ax_default sub_menu">
+          <img id="u338_menu" class="img " src="images/index/u20_menu.png" alt="u338_menu"/>
+
+          <!-- Unnamed (表格) -->
+          <div id="u339" class="ax_default">
+
+            <!-- Unnamed (Menu Item) -->
+            <div id="u340" class="ax_default menu_item">
+              <img id="u340_img" class="img " src="images/index/u22.png"/>
+              <!-- Unnamed () -->
+              <div id="u341" class="text">
+                <p><span style="font-family:'Axure Handwriting';">神经网络</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Menu Item) -->
+            <div id="u342" class="ax_default menu_item">
+              <img id="u342_img" class="img " src="images/index/u22.png"/>
+              <!-- Unnamed () -->
+              <div id="u343" class="text">
+                <p><span style="font-family:'Axure Handwriting';">SVM</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Menu Item) -->
+            <div id="u344" class="ax_default menu_item">
+              <img id="u344_img" class="img " src="images/index/u26.png"/>
+              <!-- Unnamed () -->
+              <div id="u345" class="text">
+                <p><span style="font-family:'Axure Handwriting';">KNN</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u346" class="ax_default _一级标题">
+        <img id="u346_img" class="img " src="images/index/u6.png"/>
+        <!-- Unnamed () -->
+        <div id="u347" class="text">
+          <p><span style="font-family:'Axure Handwriting Bold', 'Axure Handwriting';">Wayne的博客</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u348" class="ax_default _二级标题">
+        <img id="u348_img" class="img " src="images/cross_entropy/u348.png"/>
+        <!-- Unnamed () -->
+        <div id="u349" class="text">
+          <p><span style="font-family:'Axure Handwriting Bold', 'Axure Handwriting';">1.对损失函数进行改造，解决学习慢的问题，交叉信息熵损失函数</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u350" class="ax_default image">
+        <img id="u350_img" class="img " src="images/cross_entropy/u350.png"/>
+        <!-- Unnamed () -->
+        <div id="u351" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'Axure Handwriting';"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u352" class="ax_default image">
+        <img id="u352_img" class="img " src="images/cross_entropy/u352.png"/>
+        <!-- Unnamed () -->
+        <div id="u353" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'Axure Handwriting';"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u354" class="ax_default image">
+        <img id="u354_img" class="img " src="images/cross_entropy/u354.png"/>
+        <!-- Unnamed () -->
+        <div id="u355" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'Axure Handwriting';"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u356" class="ax_default image">
+        <img id="u356_img" class="img " src="images/cross_entropy/u356.png"/>
+        <!-- Unnamed () -->
+        <div id="u357" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'Axure Handwriting';"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (水平线) -->
+      <div id="u358" class="ax_default arrow">
+        <img id="u358_img" class="img " src="images/cross_entropy/u358.png"/>
+        <!-- Unnamed () -->
+        <div id="u359" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'Axure Handwriting';"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u360" class="ax_default image">
+        <img id="u360_img" class="img " src="images/cross_entropy/u360.png"/>
+        <!-- Unnamed () -->
+        <div id="u361" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'Axure Handwriting';"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (水平线) -->
+      <div id="u362" class="ax_default arrow">
+        <img id="u362_img" class="img " src="images/cross_entropy/u358.png"/>
+        <!-- Unnamed () -->
+        <div id="u363" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'Axure Handwriting';"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u364" class="ax_default image">
+        <img id="u364_img" class="img " src="images/cross_entropy/u364.png"/>
+        <!-- Unnamed () -->
+        <div id="u365" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'Axure Handwriting';"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (水平线) -->
+      <div id="u366" class="ax_default arrow">
+        <img id="u366_img" class="img " src="images/cross_entropy/u358.png"/>
+        <!-- Unnamed () -->
+        <div id="u367" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'Axure Handwriting';"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (水平线) -->
+      <div id="u368" class="ax_default line">
+        <img id="u368_img" class="img " src="images/cross_entropy/u368.png"/>
+        <!-- Unnamed () -->
+        <div id="u369" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'Axure Handwriting';"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u370" class="ax_default _二级标题">
+        <img id="u370_img" class="img " src="images/cross_entropy/u370.png"/>
+        <!-- Unnamed () -->
+        <div id="u371" class="text">
+          <p><span style="font-family:'Axure Handwriting Bold', 'Axure Handwriting';">2.对输出层激活函数进行改造，同时也要对损失函数进行改造，</span></p><p><span style="font-family:'Axure Handwriting Bold', 'Axure Handwriting';">softmax输出层激活函数</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u372" class="ax_default label">
+        <img id="u372_img" class="img " src="images/cross_entropy/u372.png"/>
+        <!-- Unnamed () -->
+        <div id="u373" class="text">
+          <p><span style="font-family:'Axure Handwriting';">输出层z值计算公式不变</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u374" class="ax_default image">
+        <img id="u374_img" class="img " src="images/cross_entropy/u374.png"/>
+        <!-- Unnamed () -->
+        <div id="u375" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'Axure Handwriting';"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u376" class="ax_default label">
+        <img id="u376_img" class="img " src="images/cross_entropy/u376.png"/>
+        <!-- Unnamed () -->
+        <div id="u377" class="text">
+          <p><span style="font-family:'Axure Handwriting';">输出层a值计算公式改变成</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u378" class="ax_default image">
+        <img id="u378_img" class="img " src="images/cross_entropy/u378.png"/>
+        <!-- Unnamed () -->
+        <div id="u379" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'Axure Handwriting';"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u380" class="ax_default label">
+        <img id="u380_img" class="img " src="images/cross_entropy/u380.png"/>
+        <!-- Unnamed () -->
+        <div id="u381" class="text">
+          <p><span style="font-family:'Axure Handwriting';">输出层特定神经元的值除以输出层所有神经元的值的总和</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u382" class="ax_default label">
+        <img id="u382_img" class="img " src="images/cross_entropy/u382.png"/>
+        <!-- Unnamed () -->
+        <div id="u383" class="text">
+          <p><span style="font-family:'Axure Handwriting';">所有输出层的总和=1</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (水平线) -->
+      <div id="u384" class="ax_default arrow">
+        <img id="u384_img" class="img " src="images/cross_entropy/u358.png"/>
+        <!-- Unnamed () -->
+        <div id="u385" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'Axure Handwriting';"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u386" class="ax_default label">
+        <img id="u386_img" class="img " src="images/cross_entropy/u386.png"/>
+        <!-- Unnamed () -->
+        <div id="u387" class="text">
+          <p><span style="font-family:'Axure Handwriting';">含义是输出层这个值的概率</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u388" class="ax_default label">
+        <img id="u388_img" class="img " src="images/cross_entropy/u388.png"/>
+        <!-- Unnamed () -->
+        <div id="u389" class="text">
+          <p><span style="font-family:'Axure Handwriting';">Cost函数变成</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u390" class="ax_default image">
+        <img id="u390_img" class="img " src="images/cross_entropy/u390.png"/>
+        <!-- Unnamed () -->
+        <div id="u391" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'Axure Handwriting';"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (椭圆形) -->
+      <div id="u392" class="ax_default ellipse">
+        <img id="u392_img" class="img " src="images/cross_entropy/u392.png"/>
+        <!-- Unnamed () -->
+        <div id="u393" class="text">
+          <p><span style="font-family:'Axure Handwriting';">log-likelyhood函数</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (水平线) -->
+      <div id="u394" class="ax_default arrow">
+        <img id="u394_img" class="img " src="images/cross_entropy/u358.png"/>
+        <!-- Unnamed () -->
+        <div id="u395" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'Axure Handwriting';"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u396" class="ax_default label">
+        <img id="u396_img" class="img " src="images/cross_entropy/u396.png"/>
+        <!-- Unnamed () -->
+        <div id="u397" class="text">
+          <p><span style="font-family:'Axure Handwriting';">求偏导：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u398" class="ax_default image">
+        <img id="u398_img" class="img " src="images/cross_entropy/u398.png"/>
+        <!-- Unnamed () -->
+        <div id="u399" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'Axure Handwriting';"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u400" class="ax_default image">
+        <img id="u400_img" class="img " src="images/cross_entropy/u400.png"/>
+        <!-- Unnamed () -->
+        <div id="u401" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'Axure Handwriting';"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u402" class="ax_default label">
+        <img id="u402_img" class="img " src="images/cross_entropy/u402.png"/>
+        <!-- Unnamed () -->
+        <div id="u403" class="text">
+          <p><span style="font-family:'Axure Handwriting';">权重delta</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u404" class="ax_default label">
+        <img id="u404_img" class="img " src="images/cross_entropy/u402.png"/>
+        <!-- Unnamed () -->
+        <div id="u405" class="text">
+          <p><span style="font-family:'Axure Handwriting';">偏向delta</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (椭圆形) -->
+      <div id="u406" class="ax_default ellipse">
+        <img id="u406_img" class="img " src="images/cross_entropy/u392.png"/>
+        <!-- Unnamed () -->
+        <div id="u407" class="text">
+          <p><span style="font-family:'Axure Handwriting';">具有学习快的特性</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (水平线) -->
+      <div id="u408" class="ax_default line">
+        <img id="u408_img" class="img " src="images/cross_entropy/u368.png"/>
+        <!-- Unnamed () -->
+        <div id="u409" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'Axure Handwriting';"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u410" class="ax_default _二级标题">
+        <img id="u410_img" class="img " src="images/cross_entropy/u410.png"/>
+        <!-- Unnamed () -->
+        <div id="u411" class="text">
+          <p><span style="font-family:'Axure Handwriting Bold', 'Axure Handwriting';">3.解决Over-fitting问题</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (水平线) -->
+      <div id="u412" class="ax_default arrow">
+        <img id="u412_img" class="img " src="images/cross_entropy/u358.png"/>
+        <!-- Unnamed () -->
+        <div id="u413" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'Axure Handwriting';"></span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
